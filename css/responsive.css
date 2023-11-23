@@ -1,0 +1,56 @@
+@media screen and (max-width: 500px) {
+    main{
+        max-width: auto;
+    }
+    .project.grid.filter{
+        grid-template-columns: repeat(1, max-content);
+    }
+
+    .project-card img {
+        width: 280px;
+        margin: 0 5px;
+    }
+
+    .profile-info.grid{
+        flex-direction: column;
+        column-gap: .75rem;
+        padding: 0 .5rem;
+    }
+
+    .skill {
+        flex-direction: column;
+        column-gap: .75rem;
+        padding: 0 1rem;
+    }
+
+    .work {
+        display: flex;
+        max-width: 100vw;
+        flex-direction: column;
+    }
+
+    .form{
+        margin: 0;
+    }
+
+    .form-input, textarea.form-input {
+        width: 70%;
+    }
+
+    .contact {
+        grid-template-columns: repeat(1, max-content);
+        column-gap: .75rem;
+        padding: 0 1rem;
+        max-width: auto;
+    }
+    .contact-me .socials{
+        justify-content: flex-start;
+    }
+    .footer{
+        max-width: auto;
+    }
+    .filter-tabs {
+        display: flex;
+        flex-direction: column;
+    }
+}
